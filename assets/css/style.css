@@ -5,6 +5,7 @@
     grid-template-areas: 
     "cabecalho" 
     "conteudo"
+    /* "populares" */
     "rodape";
     grid-template-columns: auto;
     grid-template-rows: 50px 100vh auto;
@@ -23,9 +24,14 @@
     grid-area:conteudo;
     padding: 0 0rem;
 }
+/* .populares {
+    background: #ff8080;
+    grid-area:populares;
+    padding: 0 0rem;
+} */
 
 .rodape {
-    background: #fdfdfd;
+    background:#00cc99 ;
     color: #333333;
     font-size: .8rem;
     grid-area:rodape;
