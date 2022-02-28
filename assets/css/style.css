@@ -5,10 +5,9 @@
     grid-template-areas: 
     "cabecalho" 
     "conteudo"
-    /* "populares" */
     "rodape";
     grid-template-columns: auto;
-    grid-template-rows: 50px 100vh auto;
+    grid-template-rows: 50px auto auto;
 }
 
 .cabecalho {
@@ -16,25 +15,33 @@
     align-items: center;
     display: flex;
     grid-area: cabecalho;
-    padding: 0 2rem 0 2rem;
+    padding: 0 2rem;
 }
 
 .conteudo {
-    /* background: #ff8080; */
+    background: #fdfdfd;
     grid-area:conteudo;
-    padding: 0 0rem;
+    padding: 0 2rem;
+    
 }
-/* .populares {
-    background: #ff8080;
-    grid-area:populares;
-    padding: 0 0rem;
-} */
+
 
 .rodape {
     background:#00cc99 ;
     color: #333333;
     font-size: .8rem;
     grid-area:rodape;
-    padding: 0 2rem;
+    padding: 1rem;
     text-align: center;
+}
+
+/* menu */
+
+.menu__link{
+    color: #333333;
+    padding: .5rem 1rem;
+}
+
+.menu__link:hover, .menu__link.ativo{
+    border-bottom: 2px solid #0073e6;
 }

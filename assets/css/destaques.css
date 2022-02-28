@@ -1,7 +1,7 @@
 .caixa{
    align-items: flex-end;
    display: flex;
-   /* justify-content: center; */
+   justify-content: center;
 }
 
 .destaques{
@@ -18,12 +18,13 @@ color: #fdfdfd;
 padding: .6rem;
 text-align: center;
 width:100%;
-/* position:initial; */
+
 }
 .destaques__principal{
    background: url('../img/fortnite.jpg') center / cover no-repeat;
    grid-column: 1 / 4;
    grid-row: 1 / 3;
+   
 
 }
 
